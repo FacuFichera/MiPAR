@@ -1,0 +1,36 @@
+
+
+[
+    {
+        "id": 1,
+        "titulo": "Hamburgesa ChesseCon",
+        "descripcion": "Es una hamburguesa con mucho cheddar y bacon",
+        "precio": 4500
+    },
+    {
+        "id": 2,
+        "titulo": "Hamburguesa Kaboom",
+        "descripcion": "Hamburguesa con huevo panceta ketchup",
+        "precio": 3500
+       
+    },
+    {
+        "id": 3,
+        "titulo": "Hamburguesa Veggie",
+        "descripcion": "Hamburguesa vegana con lechuga y tomate",
+        "precio": 2300
+    },
+    {
+        "id": 4,
+        "titulo": "Papas fritas simples",
+        "descripcion": "Papas fritas simples con ketchup",
+        "precio": 1500
+    },
+    {
+        "id": 5,
+        "titulo": "Papas fritas con huevo",
+        "descripcion": "Papas fritas con huevo y salsa picante",
+        "precio": 2000
+    }
+]
+

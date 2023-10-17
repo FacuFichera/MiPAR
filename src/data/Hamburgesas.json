@@ -1,0 +1,41 @@
+
+
+[
+    {
+        "id": 1,
+        "titulo": "Hamburgesa ChesseCon",
+        "descripcion": "Es una hamburguesa con mucho cheddar y bacon",
+        "imagen": "https://burger54.com.ar/wp-content/uploads/2022/07/Double-Cheese-Burger-1.png",
+        "precio": 4500
+    },
+    {
+        "id": 2,
+        "titulo": "Hamburguesa Kaboom",
+        "descripcion": "Hamburguesa con huevo panceta ketchup",
+        "imagen": "https://burger54.com.ar/wp-content/uploads/2021/04/cheeseburger.png",
+        "precio": 3500
+       
+    },
+    {
+        "id": 3,
+        "titulo": "Hamburguesa Veggie",
+        "descripcion": "Hamburguesa vegana con lechuga y tomate",
+        "imagen": "https://burger54.com.ar/wp-content/uploads/2022/07/NOT-Cheese-Burger.png",
+        "precio": 2300
+    },
+    {
+        "id": 4,
+        "titulo": "Papas fritas simples",
+        "descripcion": "Papas fritas simples con ketchup",
+        "imagen": "https://burger54.com.ar/wp-content/uploads/2022/10/FRENCH-FRIES.png",
+        "precio": 1500
+    },
+    {
+        "id": 5,
+        "titulo": "Papas fritas con huevo",
+        "descripcion": "Papas fritas con huevo y salsa picante",
+        "imagen": "https://burger54.com.ar/wp-content/uploads/2022/07/Fries-Egg.png",
+        "precio": 2000
+    }
+]
+

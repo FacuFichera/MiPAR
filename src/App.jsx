@@ -1,32 +1,33 @@
 import ItemDetailContainer from "./Components/ItemDetailContainer";
 import ItemListContainer from "./Components/ItemListContainer";
 import NavBar from "./Components/NavBar";
-import Nosotros from "./Components/Nosotros";
 import Contacto from "./Components/contacto";
-import "./index.css"
-import { BrowserRouter,Route,Routes } from "react-router-dom";  
+import "./index.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CartProvider } from "./Context/CartContext";
+import Carrito from "./Components/Carrito";
+import CheckOut from "./Components/CheckOut";
 
 function App() {
   return (
-    <div> 
-
-       <BrowserRouter>
-          
-          
-        <NavBar/>
+    <div>
+      <CartProvider>
+        <BrowserRouter>
+          <NavBar />
           <Routes>
-
-            <Route path="/" element={<ItemListContainer/>}></Route>
-            <Route path="/productos" element={<ItemListContainer/>}></Route>
-            <Route path="/productos/:categoria" element={<ItemListContainer/>}></Route>
-            <Route path="/contacto" element={<Contacto/>}></Route>
-            <Route path="/Nosotros" element={<Nosotros/>}></Route>
-            <Route path="/item/:id" element={<ItemDetailContainer/>}/>
-          
+            <Route path="/" element={<ItemListContainer />}></Route>
+            <Route path="/productos" element={<ItemListContainer />}></Route>
+            <Route
+              path="/productos/:categoria"
+              element={<ItemListContainer />}
+            ></Route>
+            <Route path="/contacto" element={<Contacto />}></Route>
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/Carrito" element={<Carrito />}></Route>
+            <Route path="/CheckOut" element={<CheckOut />}></Route>
           </Routes>
-
-       </BrowserRouter>
-     
+        </BrowserRouter>
+      </CartProvider>
     </div>
   );
 }
